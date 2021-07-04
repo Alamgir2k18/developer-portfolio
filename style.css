@@ -8,18 +8,17 @@ h1{
 .aw{
     color: orange;
 }
-section{
+.flexible-container{
     display: flex;
     margin-bottom: 135px;
 }
 .half-width{
     width:40%;
-    float: left;
     margin-left: 5%;
     padding-left: 2%;
 }
 .half-width img{
-    width: 85%;
+    width: 100%;
 }
 .hire-btn{
     text-decoration: none;
@@ -38,6 +37,35 @@ section{
     background-repeat: no-repeat;
     background-position: right;
 }
+.experience-area{
+    background-image: url(images/exp-bg.png);
+    background-repeat: no-repeat;
+    background-position: left center;
+    height: 550px;
+}
 .bd{
     margin-left: 10px;
+}
+.ex-item{
+    width: 45%;
+    margin-left: 5%;
+    margin-right: 5%;
+    padding-left: 20px;
+    padding-top: 25px;
+    padding-bottom: 25px;
+    border-radius: 15px;
+    box-shadow: 10px 10px 40px grey;
+}
+#first-web{
+    border-left: 7px solid;
+    border-image: linear-gradient(180deg, cyan, blue);
+    border-image-slice: 1;
+}
+#second-web{
+    border-left: 7px solid;
+    border-image: linear-gradient(180deg, blue, cyan);
+    border-image-slice: 1;
+}
+footer p{
+    text-align: center;
 }
